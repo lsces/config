@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<template>
+	<name>Glossy</name>
+	<thumbnail src="thumbnail.jpg"/>
+	<engine id="prototype,jquery">
+		<params>
+			<param name="VisualLightBoxParams">
+				<param name="borderSize">16</param>
+			</param>
+			<param name="OverlayColor">#151410</param>
+			<param name="ImageBgColor">#ffffff</param>
+		</params>
+		<files>
+			<file src="visuallightbox.css" type="css">
+				<filter name="params"/>
+			</file>
+			<file src="close.gif" type="image"/>
+			<file src="closelabel.gif" type="image"/>
+			<file src="loading.gif" type="image"/>
+			<file src="nextlabel.gif" type="image"/>
+			<file src="prevlabel.gif" type="image"/>
+			<file src="next_ie6.gif" type="image"/>
+			<file src="pause.gif" type="image"/>
+			<file src="prev_ie6.gif" type="image"/>
+			<file src="start.gif" type="image"/>
+			<file src="borderBottomCenter.png" type="image"/>
+			<file src="borderBottomLeft.png" type="image"/>
+			<file src="borderBottomRight.png" type="image"/>
+			<file src="borderMiddleLeft.png" type="image"/>
+			<file src="borderMiddleRight.png" type="image"/>
+			<file src="borderTopCenter.png" type="image"/>
+			<file src="borderTopLeft.png" type="image"/>
+			<file src="borderTopRight.png" type="image"/>
+			<file src="next.png" type="image"/>
+			<file src="prev.png" type="image"/>
+		</files>
+		<html>
+			<head>
+				<![CDATA[<link rel="stylesheet" href="$CssPath$/visuallightbox.css" type="text/css" media="screen" />]]>
+			</head>
+		</html>
+	</engine>
+</template>
