@@ -1,0 +1,113 @@
+#header {
+	margin:0;
+	padding: 1px 0 1px;
+	color: #333;
+	background-color: #5da7e1;
+	width: 100%;
+	min-width: 1000px;
+}
+
+#bittop {
+	padding: 0px;
+}
+
+#bitbartop {
+	padding: 3px;
+	background-color: #fff;
+	height: 25px;
+}
+
+#logo {
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+	width:24%;
+	min-width: 270px;
+	height:200px;
+	float: left;
+}
+
+#logo1 {
+	width:512px;
+	height:200px;
+	float: left;
+	text-align: left;
+}
+
+#logo2 {
+	margin: 0px 0px 0px 10px;
+	width:18%;
+	height:200px;
+	float: right;
+}
+
+.hdr_login {
+	width:95%;
+	height:100px;
+	text-align: right;
+}
+
+.hdr_search {
+	width:95%;
+	height:100px;
+	text-align: right;
+}
+
+/*Overall CSS for each Horizontal Accordion.
+	Most settings should be kept as it.
+	Customize each Accordion by styling each Accordion's ID attribute instead.
+*/
+
+.haccordion{
+	position:relative;
+	margin: 0px;
+	padding: 0 0 0 0;
+	background: white;
+	width:524px;
+	height:200px;
+	overflow: hidden;
+	float: left;
+	text-align: left;
+}
+
+.haccordion ul{
+margin: 0;
+padding: 0;
+list-style: none;
+overflow: hidden; /*leave as is*/
+}
+
+.haccordion li{
+margin: 0;
+padding: 0;
+display: block; /*leave as is*/
+width: 100%; /*For users with JS disabled: Width of each content*/
+height: 200px; /*For users with JS disabled: Height of each content*/
+overflow: hidden; /*leave as is*/
+float: left; /*leave as is*/
+}
+
+.haccordion li .hpanel{
+width: 100%; /*For users with JS disabled: Width of each content*/
+height: 200px;  /*For users with JS disabled: Height of each content*/
+background: white;
+}
+
+#hc1 li{
+margin:0 0 0 0; /*Spacing between each LI container*/
+background: white;
+}
+
+#hc1 li .hpanel{
+padding: 0 0 0 2px; /*Padding inside each content*/
+background: white;
+}
+
+.clear {
+	clear: both;
+}
+
+#footer	{color:#999;
+	padding: 1px 2px 1px 2px;
+	min-height:20px;
+	background-color: #5da7e1;
+}
